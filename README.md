@@ -24,13 +24,25 @@ To train the mapping network:
 ```shell
 python basis.py --epochs 30
 ```
+To train the SVM classifier for finding latent manipulation directions:
+```shell
+python edit_direction.py
+```
 
 ### Evaluation
 To evaluate the trained model:
 ```shell
 python test.py
 ```
+To visualize the semantically edited latents:
+```shell
+python visualize.py
+```
 To calculate landmark difference for quantitative results for face reenactment:
 ```shell
 python compare.py
+```
+To calculate LPIPS and FID for quantitative results for emotion manipulation:
+```shell
+python compare_LPIPS_FID.py
 ```
