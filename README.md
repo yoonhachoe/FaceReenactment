@@ -40,7 +40,7 @@ python visualize.py
 ```
 To calculate landmark difference for quantitative results for face reenactment:
 ```shell
-python compare.py
+python compare_lmk.py
 ```
 To calculate LPIPS and FID for quantitative results for emotion manipulation:
 ```shell
