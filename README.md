@@ -48,3 +48,6 @@ To calculate LPIPS and FID for quantitative results for emotion manipulation:
 ```shell
 python compare_LPIPS_FID.py
 ```
+
+<p align="center"><img src="docs/image1.jpg" width="100%"/></p>
+<p align="center"><img src="docs/image2.jpg" width="100%"/></p>
