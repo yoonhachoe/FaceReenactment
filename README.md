@@ -1,5 +1,7 @@
 # Facial Reenactment from Sparse Landmarks using StyleGAN3
 
+<p align="center"><img src="docs/image0.jpg" width="100%"/></p>
+
 ## Introduction
 In this work, we propose a new method of facial reenactment which enables to transfer the source 
 face movement by simply tracking sparse facial landmarks.  We adopt OpenPose to extract the facial 
